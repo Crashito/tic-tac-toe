@@ -10,8 +10,35 @@
 
 <body>
   <!-- <div id="app"></div> -->
-  <h1>Tic tac toe</h1>
 
+  <header>
+    <h1>Tic tac toe</h1>
+    <div class="header__information">
+      <div class="header__information--score">Score <span id="player-one-score"></span></div>
+      <div class="header__information--player">Turn <span id=""></span></div>
+      <div class="header__information--score">Score <span id="player-two-score"></span></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="game_board">
+      <div class="game_board__cell"></div>
+      <div class="game_board__cell"></div>
+      <div class="game_board__cell"></div>
+      <div class="game_board__cell"></div>
+      <div class="game_board__cell"></div>
+      <div class="game_board__cell"></div>
+      <div class="game_board__cell"></div>
+      <div class="game_board__cell"></div>
+      <div class="game_board__cell"></div>
+    </div>
+  </main>
+
+
+  <div class="game-controls">
+    <button class="game-controls__button" id="restart-score-button">Restart Score</button>
+    <button class="game-controls__button" id="new-game-button">New Game</button>
+  </div>
   <!-- <script type="module" src="/src/main.js"></script> -->
 </body>
 
