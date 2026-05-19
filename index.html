@@ -6,6 +6,9 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>js-tictactoe</title>
+
+  <link rel="stylesheet" href="/src/assets/styles/reset.css">
+  <link rel="stylesheet" href="/src/assets/styles/style.css">
 </head>
 
 <body>
@@ -14,23 +17,23 @@
   <header>
     <h1>Tic tac toe</h1>
     <div class="header__information">
-      <div class="header__information--score">Score <span id="player-one-score"></span></div>
+      <div class="header__information--score">Score <span id="player-one-score">0</span></div>
       <div class="header__information--player">Turn <span id=""></span></div>
-      <div class="header__information--score">Score <span id="player-two-score"></span></div>
+      <div class="header__information--score">Score <span id="player-two-score">0</span></div>
     </div>
   </header>
 
   <main>
     <div class="game_board">
-      <div class="game_board__cell"></div>
-      <div class="game_board__cell"></div>
-      <div class="game_board__cell"></div>
-      <div class="game_board__cell"></div>
-      <div class="game_board__cell"></div>
-      <div class="game_board__cell"></div>
-      <div class="game_board__cell"></div>
-      <div class="game_board__cell"></div>
-      <div class="game_board__cell"></div>
+      <div id="A1" class="game_board__cell"></div>
+      <div id="A2" class="game_board__cell"></div>
+      <div id="A3" class="game_board__cell"></div>
+      <div id="B1" class="game_board__cell"></div>
+      <div id="B2" class="game_board__cell"></div>
+      <div id="B3" class="game_board__cell"></div>
+      <div id="C1" class="game_board__cell"></div>
+      <div id="C2" class="game_board__cell"></div>
+      <div id="C3" class="game_board__cell"></div>
     </div>
   </main>
 
