@@ -59,3 +59,10 @@ document.querySelector('#app').innerHTML = `
 `
 */
 
+import { initialize } from "./usecases/initialize";
+import { updateScore } from "./usecases/update-score";
+
+const { score, playerTurn, board } = initialize();
+
+initialize();
+updateScore(score);
